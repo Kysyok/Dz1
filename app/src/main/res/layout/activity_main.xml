@@ -10,8 +10,8 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="674dp"
-        android:layout_height="369dp"
+        android:layout_width="382dp"
+        android:layout_height="293dp"
         android:background="@drawable/crn"
         android:clipToOutline="true"
         android:scaleType="centerCrop"
