@@ -12,20 +12,20 @@
                motion:motionTarget="@+id/imageView2"
                motion:framePosition="35"
                motion:keyPositionType="parentRelative"
-               motion:percentX="0.3"
-               motion:percentY="1" />
+               motion:percentX="0.315"
+               motion:percentY="0.644" />
            <KeyPosition
                motion:motionTarget="@+id/imageView2"
                motion:framePosition="60"
                motion:keyPositionType="parentRelative"
-               motion:percentX="0.103"
-               motion:percentY="0.499" />
+               motion:percentX="0.041"
+               motion:percentY="0.506" />
            <KeyPosition
                motion:motionTarget="@+id/imageView2"
                motion:framePosition="82"
                motion:keyPositionType="parentRelative"
-               motion:percentX="0.503"
-               motion:percentY="0.006" />
+               motion:percentX="0.481"
+               motion:percentY="0.346" />
        </KeyFrameSet>
     </Transition>
 
