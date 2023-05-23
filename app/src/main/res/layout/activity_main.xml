@@ -8,18 +8,21 @@
     app:layoutDescription="@xml/activity_main_scene"
     tools:context=".MainActivity">
 
-    <ImageView
+    <com.stelladk.arclib.ArcLayout
         android:id="@+id/imageView"
         android:layout_width="382dp"
         android:layout_height="293dp"
-        android:background="@drawable/crn"
-        android:clipToOutline="true"
+        app:ArcRadius="80dp"
+        app:TopLeftArc="inner"
+        app:TopRightArc="inner"
+        app:BottomLeftArc="inner"
+        app:BottomRightArc="inner"
         android:scaleType="centerCrop"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/field" />
+        android:background="@drawable/field" />
 
     <ImageView
         android:id="@+id/imageView2"
